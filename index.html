@@ -1,0 +1,1811 @@
+<header class="rs-header" role="banner">
+  <div class="rs-header__inner">
+
+    <!-- Brand / Logo -->
+    <a class="rs-brand" href="https://kakatbarilea-prog.github.io/bni-homepage/" aria-label="BNI Rock Solid Referrals - Home">
+      <img
+        class="rs-brand__logo"
+        src="https://d34hmiuaex7c0.cloudfront.net/6568/uploads/cmaspages/gallery/galleryitem_1759854726598.png"
+        alt="BNI Rock Solid Referrals"
+      />
+    </a>
+
+    <!-- Desktop Nav -->
+    <nav class="rs-nav" aria-label="Primary navigation">
+      <a class="rs-nav__link is-active" href="https://kakatbarilea-prog.github.io/bni-homepage/">Home</a>
+
+      <!-- Dropdown (CSS-only) -->
+      <div class="rs-nav__dropdown">
+        <a class="rs-nav__link rs-nav__dropbtn" href="https://kakatbarilea-prog.github.io/bni-chapter-leadership/" aria-haspopup="true" aria-expanded="false">
+          Our Chapter
+        </a>
+
+        <div class="rs-nav__menu" role="menu" aria-label="Chapter Members">
+          <a role="menuitem" href="https://kakatbarilea-prog.github.io/bni-chapter-leadership/">Chapter Leadership</a>
+          <a role="menuitem" href="https://kakatbarilea-prog.github.io/bni-chamber-members-directory/">Member Directory</a>
+          <a role="menuitem" class="rs-membersOnlyLink" href="https://kakatbarilea-prog.github.io/bni-seek-of-the-week-submissions/">Seeks of the Week</a>
+        </div>
+      </div>
+
+      <!-- UPDATED: Meetings & Events Dropdown -->
+      <div class="rs-nav__dropdown">
+        <a class="rs-nav__link rs-nav__dropbtn" href="https://kakatbarilea-prog.github.io/bni-meetings-and-events" aria-haspopup="true" aria-expanded="false">
+          Meetings &amp; Events
+        </a>
+
+        <div class="rs-nav__menu" role="menu" aria-label="Meetings & Events">
+          <a role="menuitem" href="https://kakatbarilea-prog.github.io/bni-weekly-meetings">Weekly Meetings</a>
+          <a role="menuitem" href="https://kakatbarilea-prog.github.io/bni-upcoming-events">Upcoming Events</a>
+          <a role="menuitem" class="rs-membersOnlyLink" href="https://kakatbarilea-prog.github.io/bni-member-events">Member Promotions &amp; Events</a>
+          <a role="menuitem" class="rs-membersOnlyLink" href="https://kakatbarilea-prog.github.io/bni-post-an-event">Post an Event</a>
+        </div>
+      </div>
+
+      <a class="rs-nav__link" href="https://kakatbarilea-prog.github.io/bni-gallery">Gallery</a>
+      <a class="rs-nav__link" href="https://kakatbarilea-prog.github.io/bni-news">News</a>
+    </nav>
+
+    <!-- Right -->
+    <div class="rs-actions">
+      <a class="rs-btn rs-btn--primary rs-desktopOnly" href="https://kakatbarilea-prog.github.io/bni-member-login" id="rsMemberLoginLink">Member Log-in</a>
+
+      <!-- Mobile menu button (JS toggles panel) -->
+      <button class="rs-iconbtn" id="rsMenuBtn" type="button" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h16a1 1 0 1 0 0-2H4a1 1 0 1 0 0 2Zm16 7H4a1 1 0 0 0 0 2h16a1 1 0 1 0 0-2Zm0 7H4a1 1 0 0 0 0 2h16a1 1 0 1 0 0-2Z"/>
+        </svg>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Mobile Panel -->
+  <div class="rs-mobile" id="rsMobilePanel" hidden>
+    <div class="rs-mobile__inner">
+      <a href="https://kakatbarilea-prog.github.io/bni-homepage/" class="rs-mobile__link">Home</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-chapter-leadership/">Our Chapter — Chapter Leadership</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-chamber-members-directory/" class="rs-mobile__link">Our Chapter — Member Directory</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-seek-of-the-week-submissions/" class="rs-mobile__link rs-membersOnlyLink">Chapter Members — Seeks of the Week</a>
+
+      <!-- UPDATED: Meetings & Events children in mobile -->
+      <a href="https://kakatbarilea-prog.github.io/bni-weekly-meetings" class="rs-mobile__link">Meetings &amp; Events — Weekly Meetings</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-upcoming-events" class="rs-mobile__link">Meetings &amp; Events — Upcoming Events</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-member-events" class="rs-mobile__link rs-membersOnlyLink">Meetings &amp; Events — Member Promotions &amp; Events</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-post-an-event" class="rs-mobile__link rs-membersOnlyLink">Meetings &amp; Events — Post an Event</a>
+
+      <a href="https://kakatbarilea-prog.github.io/bni-gallery" class="rs-mobile__link">Gallery</a>
+      <a href="https://kakatbarilea-prog.github.io/bni-news" class="rs-mobile__link">News</a>
+
+      <div class="rs-mobile__cta">
+        <a class="rs-btn rs-btn--primary rs-btn--block" href="https://kakatbarilea-prog.github.io/bni-member-login" id="rsMemberLoginLinkMobile">Member Log-in</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- MEMBERS ONLY POPUP (HEADER VERSION) -->
+<div class="rsH-membersModal" id="rsHMembersModal" hidden aria-hidden="true">
+  <div class="rsH-membersModal__backdrop" data-close="1"></div>
+
+  <div class="rsH-membersModal__card" role="dialog" aria-modal="true" aria-label="Members only">
+    <div class="rsH-membersModal__badge">Members Only</div>
+    <div class="rsH-membersModal__title">This page is available to chapter members.</div>
+    <div class="rsH-membersModal__text">
+      Please log in to access member pages such as Seeks, Member Events, and Event Submissions.
+    </div>
+
+    <div class="rsH-membersModal__actions">
+      <button class="rsH-membersModal__btn rsH-membersModal__btn--secondary" type="button" data-close="1">
+        Close &amp; Continue
+      </button>
+      <a class="rsH-membersModal__btn rsH-membersModal__btn--primary" href="https://kakatbarilea-prog.github.io/bni-member-login" id="rsHModalLoginBtn">
+        Member Log-in
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* -------- HEADER ONLY VARIABLES (scoped) -------- */
+  .rs-header{
+    --rs-red:#CF2030;
+    --rs-redDark:#b61b29;
+    --rs-ink:#111827;
+    --rs-line:#E5E7EB;
+    --rs-bg: rgba(255,255,255,.92);
+    --rs-shadow: 0 10px 26px rgba(0,0,0,.10);
+    --rs-h: 78px;
+  }
+
+  /* Scope all typography + box sizing to header only */
+  .rs-header, .rs-header *{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+  }
+
+  .rs-header{
+    position:sticky; top:0; z-index:999;
+    width:100%;
+    background: var(--rs-bg);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(229,231,235,.95);
+  }
+
+  .rs-header__inner{
+    width:100%;
+    height:var(--rs-h);
+    padding:0 26px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:18px;
+  }
+
+  .rs-brand{
+    display:flex;
+    align-items:center;
+    text-decoration:none;
+    flex:0 0 auto;
+  }
+
+  /* Prevent stretch */
+  .rs-brand__logo{
+    height:40px;
+    width:auto;
+    max-width:220px;
+    object-fit:contain;
+    display:block;
+  }
+
+  .rs-nav{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:6px;
+    flex:1;
+    min-width:0;
+  }
+
+  .rs-nav__link{
+    display:inline-flex;
+    align-items:center;
+    padding:10px 12px;
+    border-radius:12px;
+    font-weight:600;
+    font-size:14px;
+    color:var(--rs-ink);
+    text-decoration:none;
+    white-space:nowrap;
+    transition:.15s ease;
+  }
+  .rs-nav__link:hover{background:#F6F7FB}
+
+  .rs-nav__link.is-active{position:relative}
+  .rs-nav__link.is-active::after{
+    content:"";
+    position:absolute;
+    left:12px; right:12px; bottom:6px;
+    height:2px;
+    border-radius:999px;
+    background:var(--rs-red);
+  }
+
+  /* Dropdown (CSS-only) with hover bridge */
+  .rs-nav__dropdown{position:relative}
+  .rs-nav__dropbtn{cursor:default}
+
+  .rs-nav__menu{
+    position:absolute;
+    top:100%;
+    left:0;
+    margin-top:8px;
+    min-width:240px;
+    background:#fff;
+    border:1px solid var(--rs-line);
+    border-radius:14px;
+    box-shadow:var(--rs-shadow);
+    padding:8px;
+    display:none;
+    z-index:50;
+  }
+
+  .rs-nav__dropdown::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:100%;
+    width:260px;
+    height:18px;
+    background:transparent;
+    display:none;
+    z-index:40;
+  }
+
+  .rs-nav__menu a{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    padding:11px 12px;
+    border-radius:12px;
+    font-weight:600;
+    font-size:14px;
+    color:var(--rs-ink);
+    text-decoration:none;
+    transition:.15s ease;
+  }
+  .rs-nav__menu a:hover{background:#F6F7FB}
+
+  .rs-nav__dropdown:hover .rs-nav__menu,
+  .rs-nav__dropdown:focus-within .rs-nav__menu{
+    display:block;
+  }
+  .rs-nav__dropdown:hover::before,
+  .rs-nav__dropdown:focus-within::before{
+    display:block;
+  }
+
+  .rs-actions{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    gap:10px;
+    flex:0 0 auto;
+  }
+
+  /* Button with hover animation */
+  .rs-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:11px 16px;
+    border-radius:12px;
+    border:1px solid var(--rs-line);
+    background:#fff;
+    font-weight:600;
+    font-size:14px;
+    color:var(--rs-ink);
+    text-decoration:none;
+    white-space:nowrap;
+    position:relative;
+    overflow:hidden;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+
+  .rs-btn--primary{
+    border-color:transparent;
+    background:var(--rs-red);
+    color:#fff;
+  }
+
+  .rs-btn--primary::after{
+    content:"";
+    position:absolute;
+    top:-30%;
+    left:-60%;
+    width:40%;
+    height:160%;
+    transform: rotate(20deg);
+    background: rgba(255,255,255,.25);
+    opacity:0;
+    transition: opacity .2s ease;
+  }
+
+  .rs-btn--primary:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0,0,0,.14);
+    filter: brightness(.98);
+  }
+  .rs-btn--primary:hover::after{
+    opacity:1;
+    animation: rsSheen .9s ease forwards;
+  }
+
+  @keyframes rsSheen{
+    0%{left:-60%}
+    100%{left:120%}
+  }
+
+  .rs-desktopOnly{display:inline-flex}
+
+  /* Mobile hamburger */
+  .rs-iconbtn{
+    width:44px;height:44px;
+    border-radius:12px;
+    border:1px solid var(--rs-line);
+    background:#fff;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    cursor:pointer;
+    transition: transform .18s ease, box-shadow .18s ease;
+  }
+  .rs-iconbtn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0,0,0,.10);
+  }
+  .rs-iconbtn svg{width:20px;height:20px; fill:#111827; display:block}
+
+  /* Mobile panel */
+  .rs-mobile{
+    border-top:1px solid var(--rs-line);
+    background:#fff;
+  }
+  .rs-mobile__inner{
+    padding:14px 18px 18px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+  }
+  .rs-mobile__link{
+    padding:12px 12px;
+    border-radius:12px;
+    font-weight:600;
+    background:#F7F7FA;
+    border:1px solid #EEF0F6;
+    text-decoration:none;
+    color:var(--rs-ink);
+    transition:.15s ease;
+  }
+  .rs-mobile__link:hover{background:#F1F3F8}
+  .rs-mobile__cta{padding-top:6px}
+  .rs-btn--block{width:100%}
+
+  @media (max-width: 980px){
+    .rs-nav{display:none}
+    .rs-iconbtn{display:inline-flex}
+    .rs-desktopOnly{display:none}
+    .rs-header__inner{padding:0 16px}
+    .rs-brand__logo{height:36px; max-width:180px;}
+  }
+
+  @media (max-width: 420px){
+    .rs-header{--rs-h:72px}
+    .rs-brand__logo{max-width:150px;}
+  }
+
+  /* =========================
+     HEADER MODAL (unique classes so nothing overrides it)
+  ========================= */
+  .rsH-membersModal{
+    position:fixed;
+    inset:0;
+    z-index:5000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px;
+  }
+  .rsH-membersModal[hidden]{display:none !important;}
+
+  .rsH-membersModal__backdrop{
+    position:absolute;
+    inset:0;
+    background: rgba(17,24,39,.62);
+    backdrop-filter: blur(4px);
+  }
+
+  .rsH-membersModal__card{
+    position:relative;
+    width:100%;
+    max-width:420px;
+    border-radius:20px;
+    border:1px solid rgba(229,231,235,.55);
+    background:#fff;
+    box-shadow: 0 22px 56px rgba(0,0,0,.22);
+    padding:18px 18px 16px;
+    text-align:left;
+  }
+
+  .rsH-membersModal__badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 12px;
+    border-radius:999px;
+    font-weight:900;
+    font-size:12px;
+    letter-spacing:.02em;
+    color:#CF2030;
+    background: rgba(207,32,48,.10);
+    border: 1px solid rgba(207,32,48,.18);
+    margin-bottom:12px;
+  }
+
+  .rsH-membersModal__title{
+    font-size:16px;
+    font-weight:900;
+    color:#111827;
+    margin-bottom:8px;
+  }
+
+  .rsH-membersModal__text{
+    font-size:14px;
+    line-height:1.6;
+    color:#4B5563;
+    margin-bottom:14px;
+  }
+
+  .rsH-membersModal__actions{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:8px;
+  }
+
+  .rsH-membersModal__btn{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    gap:8px !important;
+    padding:11px 14px !important;
+    border-radius:14px !important;
+    font-weight:900 !important;
+    font-size:13px !important;
+    text-decoration:none !important;
+    cursor:pointer !important;
+    border:1px solid #E5E7EB !important;
+    transition:.18s ease !important;
+    flex:1 !important;
+    min-width:160px !important;
+    line-height:1 !important;
+  }
+
+  .rsH-membersModal__btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 22px rgba(0,0,0,.12);
+  }
+
+  .rsH-membersModal__btn--secondary{
+    background:#F3F4F6 !important;
+    color:#111827 !important;
+    border-color:#E5E7EB !important;
+  }
+
+  /* ✅ HARD FIX: anchor login button forced red + white */
+  .rsH-membersModal__btn--primary,
+  a.rsH-membersModal__btn--primary,
+  a#rsHModalLoginBtn{
+    background:#CF2030 !important;
+    color:#ffffff !important;
+    border-color:transparent !important;
+  }
+  .rsH-membersModal__btn--primary:hover,
+  a.rsH-membersModal__btn--primary:hover,
+  a#rsHModalLoginBtn:hover{
+    background:#b61b29 !important;
+    color:#ffffff !important;
+  }
+
+  @media (max-width: 520px){
+    .rsH-membersModal__btn{
+      width:100%;
+      min-width:unset;
+      flex: 1 1 100%;
+    }
+  }
+</style>
+
+<script>
+  /* Minimal / necessary only: mobile hamburger open/close */
+  (function(){
+    const btn = document.getElementById('rsMenuBtn');
+    const panel = document.getElementById('rsMobilePanel');
+    if(!btn || !panel) return;
+
+    function close(){
+      panel.setAttribute('hidden','');
+      btn.setAttribute('aria-expanded','false');
+    }
+
+    btn.addEventListener('click', () => {
+      const isHidden = panel.hasAttribute('hidden');
+      if(isHidden){
+        panel.removeAttribute('hidden');
+        btn.setAttribute('aria-expanded','true');
+      }else{
+        close();
+      }
+    });
+
+    panel.addEventListener('click', (e) => {
+      if(e.target && e.target.tagName === 'A') close();
+    });
+
+    window.addEventListener('resize', () => {
+      if(window.innerWidth > 980) close();
+    });
+  })();
+
+  // HEADER MODAL GATING
+  (function(){
+    const modal = document.getElementById('rsHMembersModal');
+    if(!modal) return;
+
+    const loginHref =
+      (document.getElementById('rsMemberLoginLink') && document.getElementById('rsMemberLoginLink').getAttribute('href')) ||
+      (document.getElementById('rsMemberLoginLinkMobile') && document.getElementById('rsMemberLoginLinkMobile').getAttribute('href')) ||
+      '#';
+
+    const modalLoginBtn = document.getElementById('rsHModalLoginBtn');
+    if(modalLoginBtn) modalLoginBtn.setAttribute('href', loginHref);
+
+    modal.setAttribute('hidden','');
+    modal.setAttribute('aria-hidden','true');
+
+    function openModal(){
+      modal.removeAttribute('hidden');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(){
+      modal.setAttribute('hidden','');
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('click', function(e){
+      const gated = e.target.closest('.rs-membersOnlyLink');
+      if(!gated) return;
+      e.preventDefault();
+      openModal();
+    });
+
+    modal.addEventListener('click', function(e){
+      if(e.target && e.target.getAttribute('data-close') === '1') closeModal();
+    });
+
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && !modal.hasAttribute('hidden')) closeModal();
+    });
+  })();
+</script>
+
+
+
+
+<!--start-->
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<main class="rs-eventSubmit">
+
+  <!-- =========================
+       1) HERO
+  ========================= -->
+  <section class="rs-submitHero" aria-label="Event submission hero">
+    <div class="rs-container rs-submitHero__grid">
+
+      <div class="rs-submitHero__copy">
+        <h1 class="rs-submitHero__title">Post an Event</h1>
+        <p class="rs-submitHero__sub">
+          Share an upcoming event with the chapter — virtual or in-person.
+          Once submitted, it will be reviewed for approval before appearing in the News & Events feed.
+        </p>
+
+        <div class="rs-submitHero__actions">
+          <a class="rs-btn rs-btn--primary rs-btn--sheen" id="rsViewEventsTop" href="https://kakatbarilea-prog.github.io/bni-meetings-and-events">
+            <i class="fa-solid fa-calendar-days"></i> View events
+          </a>
+        </div>
+      </div>
+
+      <div class="rs-submitHero__visual" aria-label="Event form visual">
+        <div class="rs-imgPh rs-imgPh--submitHero">
+          <div class="rs-imgPh__label">
+            <strong>IMAGE PLACEHOLDER</strong><br>
+            Size: <strong>540px × 260px</strong><br>
+            Visual: Business event / workshop / networking scene illustration.<br>
+            Style: Bright, modern, subtle.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- =========================
+       2) FORM CARD
+  ========================= -->
+  <section class="rs-submitWrap" aria-label="Event form area">
+    <div class="rs-container">
+
+      <section class="rs-formCard" aria-label="Post an Event form">
+
+        <!-- Card header row -->
+        <div class="rs-formHeader">
+          <div class="rs-formHeader__title">
+            <div class="rs-formKicker">New Event</div>
+            <div class="rs-formTitle">Tell the chapter about your event</div>
+          </div>
+
+          <div class="rs-formHint" title="Events are reviewed before publishing">
+            <i class="fa-solid fa-shield-heart"></i> Approval required
+          </div>
+        </div>
+
+        <!-- Event type chips -->
+        <div class="rs-field">
+          <div class="rs-label">Event Format</div>
+          <div class="rs-choiceRow" id="rsEventTypeChoices" role="tablist" aria-label="Event Type">
+            <button class="rs-choice is-active" data-type="virtual" role="tab" aria-selected="true" type="button">
+              <i class="fa-solid fa-video"></i> Virtual
+            </button>
+
+            <button class="rs-choice" data-type="inperson" role="tab" aria-selected="false" type="button">
+              <i class="fa-solid fa-location-dot"></i> Face-to-Face
+            </button>
+          </div>
+        </div>
+
+        <!-- Featured image upload -->
+        <div class="rs-field">
+          <label class="rs-label" for="rsEventFeaturedImg">
+            Featured Image (optional)
+          </label>
+
+          <div class="rs-upload">
+            <div class="rs-upload__left">
+              <div class="rs-upload__icon"><i class="fa-regular fa-image"></i></div>
+              <div class="rs-upload__copy">
+                <div class="rs-upload__title">Upload a featured banner</div>
+                <div class="rs-upload__sub">Recommended size: <strong>1920px × 1080px</strong> (landscape)</div>
+              </div>
+            </div>
+
+            <div class="rs-upload__right">
+              <input id="rsEventFeaturedImg" type="file" accept="image/*" />
+            </div>
+          </div>
+
+          <div class="rs-previewRow rs-hidden" id="rsImgPreviewRow" aria-label="Featured image preview">
+            <div class="rs-previewCard">
+              <img id="rsImgPreview" alt="Featured image preview" />
+              <div class="rs-previewMeta">
+                <div class="rs-previewLabel"><i class="fa-solid fa-image"></i> Preview</div>
+                <button class="rs-btn rs-btn--muted" id="rsRemoveImg" type="button">
+                  Remove
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <hr class="rs-divider">
+
+        <!-- Core event details -->
+        <div class="rs-field">
+          <label class="rs-label" for="rsEventTitle">Event Title</label>
+          <input id="rsEventTitle" type="text" placeholder="e.g., Lunch & Learn: How to Build Referral Partnerships">
+        </div>
+
+        <div class="rs-row rs-field">
+          <div>
+            <label class="rs-label" for="rsEventHost">Hosted By</label>
+            <input id="rsEventHost" type="text" placeholder="Your name or organization">
+          </div>
+          <div>
+            <label class="rs-label" for="rsEventCategory">Category</label>
+            <select id="rsEventCategory">
+              <option value="">Select…</option>
+              <option>Networking</option>
+              <option>Workshop / Training</option>
+              <option>Social / Community</option>
+              <option>Open House</option>
+              <option>Fundraiser</option>
+              <option>Industry Event</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="rs-row rs-field">
+          <div>
+            <label class="rs-label" for="rsEventDate">Date</label>
+            <input id="rsEventDate" type="text" placeholder="e.g., Feb 10, 2026">
+          </div>
+          <div>
+            <label class="rs-label" for="rsEventTime">Start Time</label>
+            <input id="rsEventTime" type="text" placeholder="e.g., 6:00 PM">
+          </div>
+        </div>
+
+        <div class="rs-row rs-field">
+          <div>
+            <label class="rs-label" for="rsEventEndTime">End Time (optional)</label>
+            <input id="rsEventEndTime" type="text" placeholder="e.g., 8:00 PM">
+          </div>
+          <div>
+            <label class="rs-label" for="rsEventTz">Timezone</label>
+            <select id="rsEventTz">
+              <option value="">Select…</option>
+              <option>EST</option>
+              <option>CST</option>
+              <option>MST</option>
+              <option>PST</option>
+              <option>GMT</option>
+              <option>UTC</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- VIRTUAL fields -->
+        <div id="rsFieldsVirtual">
+          <div class="rs-field">
+            <label class="rs-label" for="rsEventLink">Meeting Link</label>
+            <input id="rsEventLink" type="text" placeholder="Paste Zoom / Google Meet / Teams link">
+          </div>
+
+          <div class="rs-field">
+            <label class="rs-label" for="rsEventInstructions">Join Instructions (optional)</label>
+            <textarea id="rsEventInstructions" placeholder="Example: Please join 5 minutes early. Mute on entry."></textarea>
+          </div>
+        </div>
+
+        <!-- IN-PERSON fields -->
+        <div id="rsFieldsInperson" class="rs-hidden">
+          <div class="rs-field">
+            <label class="rs-label" for="rsEventVenue">Venue / Location</label>
+            <input id="rsEventVenue" type="text" placeholder="Venue name">
+          </div>
+
+          <div class="rs-field">
+            <label class="rs-label" for="rsEventAddress">Address</label>
+            <input id="rsEventAddress" type="text" placeholder="Street, City, State, Zip">
+          </div>
+
+          <div class="rs-field">
+            <label class="rs-label" for="rsEventParking">Parking / Arrival Notes (optional)</label>
+            <textarea id="rsEventParking" placeholder="Example: Free parking behind building. Enter through main lobby."></textarea>
+          </div>
+        </div>
+
+        <hr class="rs-divider">
+
+        <!-- Registration details -->
+        <div class="rs-row rs-field">
+          <div>
+            <label class="rs-label" for="rsRegLink">Registration Link (optional)</label>
+            <input id="rsRegLink" type="text" placeholder="If people need to RSVP, paste the link here">
+          </div>
+          <div>
+            <label class="rs-label" for="rsCapacity">Capacity (optional)</label>
+            <input id="rsCapacity" type="text" placeholder="e.g., 40">
+          </div>
+        </div>
+
+        <div class="rs-row rs-field">
+          <div>
+            <label class="rs-label" for="rsPrice">Cost (optional)</label>
+            <input id="rsPrice" type="text" placeholder="e.g., Free / $25 / Donation">
+          </div>
+          <div>
+            <label class="rs-label" for="rsContactEmail">Contact Email (optional)</label>
+            <input id="rsContactEmail" type="text" placeholder="Email for attendee questions">
+          </div>
+        </div>
+
+        <!-- Short description -->
+        <div class="rs-field">
+          <label class="rs-label" for="rsEventDescription">Short Description</label>
+          <textarea id="rsEventDescription" placeholder="Give members the reason to attend. Keep it short, clear, and compelling."></textarea>
+        </div>
+
+        <div class="rs-actions">
+          <button id="rsSubmitEvent" class="rs-btn rs-btn--primary rs-btn--sheen" type="button">
+            <i class="fa-solid fa-paper-plane"></i> Submit Event for Approval
+          </button>
+
+          <button id="rsResetEvent" class="rs-btn rs-btn--muted" type="button">
+            Reset
+          </button>
+        </div>
+
+      </section>
+
+    </div>
+  </section>
+
+</main>
+
+
+<!-- =========================
+     SUCCESS MODAL
+========================= -->
+<div class="rs-modal" id="rsSuccessModal" role="dialog" aria-modal="true" aria-labelledby="rsSuccessTitle">
+  <div class="rs-modalCard">
+    <div class="rs-modalIcon"><i class="fa-solid fa-circle-check"></i></div>
+    <h3 id="rsSuccessTitle">Event Submitted</h3>
+    <p>Your event was submitted successfully and is now pending approval.</p>
+
+    <div class="rs-modalActions">
+      <a id="rsGoViewEvents" href="https://kakatbarilea-prog.github.io/bni-meetings-and-events" class="rs-btn rs-btn--primary rs-btn--sheen">
+        <i class="fa-solid fa-calendar-days"></i> View events
+      </a>
+      <button class="rs-btn rs-btn--muted" id="rsCloseModal" type="button">Close</button>
+    </div>
+  </div>
+</div>
+
+
+<style>
+  /* =========================================================
+     EVENT SUBMISSION STYLES (CLONED FROM SEEK PAGE)
+  ========================================================= */
+
+  .rs-eventSubmit{
+    --rs-red:#CF2030;
+    --rs-ink:#111827;
+    --rs-muted:#6B7280;
+    --rs-line:#E5E7EB;
+    --rs-soft:#F6F7FB;
+    --rs-soft2:#FBFBFD;
+    --rs-shadow: 0 12px 28px rgba(0,0,0,.08);
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--rs-ink);
+    background:#fff;
+  }
+  .rs-eventSubmit, .rs-eventSubmit *{ box-sizing:border-box; }
+
+  .rs-container{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:0 22px;
+  }
+
+  /* Hero */
+  .rs-submitHero{
+    padding:42px 0 24px;
+    background:
+      radial-gradient(900px 420px at 15% 0%, rgba(207,32,48,.10), rgba(255,255,255,0) 55%),
+      radial-gradient(900px 420px at 85% 25%, rgba(17,24,39,.06), rgba(255,255,255,0) 55%);
+  }
+  .rs-submitHero__grid{
+    display:grid;
+    grid-template-columns: 1.05fr .95fr;
+    gap:20px;
+    align-items:center;
+  }
+  .rs-submitHero__title{
+    margin:0;
+    font-size:40px;
+    letter-spacing:-.03em;
+    line-height:1.08;
+    font-weight:700;
+  }
+  .rs-submitHero__sub{
+    margin:12px 0 14px;
+    color:var(--rs-muted);
+    line-height:1.7;
+    max-width:680px;
+    font-weight:400;
+  }
+  .rs-submitHero__actions{ margin-top:14px; }
+
+  /* Image placeholder */
+  .rs-imgPh{
+    width:100%;
+    border-radius:18px;
+    border:1px dashed rgba(17,24,39,.22);
+    background: linear-gradient(180deg, #fff, #FBFBFD);
+    box-shadow: 0 12px 26px rgba(0,0,0,.06);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px;
+    text-align:center;
+    color:#6B7280;
+    line-height:1.5;
+  }
+  .rs-imgPh__label{ font-size:13px; max-width:520px; }
+  .rs-imgPh--submitHero{ height:260px; }
+
+  /* Buttons */
+  .rs-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:11px 16px;
+    border-radius:12px;
+    border:1px solid rgba(17,24,39,.12);
+    background:#fff;
+    font-weight:600;
+    font-size:14px;
+    color:#111827;
+    text-decoration:none;
+    white-space:nowrap;
+    gap:10px;
+    cursor:pointer;
+    transition: transform .18s ease, box-shadow .18s ease, filter .18s ease;
+  }
+  .rs-btn:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 12px 22px rgba(0,0,0,.10);
+  }
+  .rs-btn--primary{
+    border-color:transparent;
+    background:var(--rs-red);
+    color:#fff;
+  }
+  .rs-btn--primary:hover{
+    box-shadow: 0 14px 26px rgba(207,32,48,.18);
+    filter: brightness(.98);
+  }
+  .rs-btn--muted{
+    font-weight:600;
+    color:#374151;
+    background:rgba(17,24,39,.04);
+    border:1px solid rgba(17,24,39,.12);
+  }
+  .rs-btn--muted:hover{ filter:none; }
+
+  .rs-btn--sheen{
+    position:relative;
+    overflow:hidden;
+  }
+  .rs-btn--sheen::after{
+    content:"";
+    position:absolute;
+    top:-30%;
+    left:-60%;
+    width:40%;
+    height:160%;
+    transform: rotate(20deg);
+    background: rgba(255,255,255,.25);
+    opacity:0;
+    transition: opacity .2s ease;
+  }
+  .rs-btn--sheen:hover::after{
+    opacity:1;
+    animation: rsSheen .9s ease forwards;
+  }
+  @keyframes rsSheen{
+    0%{ left:-60%; }
+    100%{ left:120%; }
+  }
+
+  /* Form wrap */
+  .rs-submitWrap{ padding:10px 0 60px; }
+  .rs-formCard{
+    max-width:980px;
+    margin:0 auto;
+    border:1px solid rgba(17,24,39,.10);
+    background:#fff;
+    border-radius:18px;
+    box-shadow: 0 14px 40px rgba(0,0,0,0.10);
+    padding:18px;
+  }
+
+  .rs-formHeader{
+    display:flex;
+    justify-content:space-between;
+    gap:12px;
+    align-items:flex-start;
+    padding:6px 6px 14px;
+  }
+  .rs-formKicker{
+    font-size:12px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:#6B7280;
+    font-weight:600;
+  }
+  .rs-formTitle{
+    margin-top:6px;
+    font-size:20px;
+    font-weight:700;
+    letter-spacing:-.02em;
+  }
+  .rs-formHint{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    padding:8px 12px;
+    border-radius:999px;
+    font-size:12px;
+    font-weight:700;
+    border:1px solid rgba(17,24,39,.12);
+    background:rgba(17,24,39,.04);
+    color:#111827;
+  }
+
+  /* Fields */
+  .rs-field{ margin-bottom:12px; }
+  .rs-label{
+    display:block;
+    font-size:13px;
+    color:#111;
+    margin-bottom:6px;
+    font-weight:700;
+  }
+
+  .rs-row{
+    display:flex;
+    gap:10px;
+    align-items:flex-start;
+  }
+  .rs-row > *{ flex:1; }
+
+  input[type="text"], select, textarea, input[type="file"]{
+    width:100%;
+    border:1px solid rgba(17,24,39,.14);
+    border-radius:14px;
+    padding:12px 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    outline:none;
+    background:#fff;
+    transition:.18s ease;
+  }
+  textarea{ min-height:96px; resize:vertical; }
+
+  input[type="text"]:focus, select:focus, textarea:focus{
+    border-color: rgba(207,32,48,.28);
+    box-shadow: 0 12px 26px rgba(207,32,48,.10);
+  }
+
+  /* Choice buttons */
+  .rs-choiceRow{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-bottom:4px;
+  }
+  .rs-choice{
+    border:1px solid rgba(17,24,39,.12);
+    border-radius:999px;
+    padding:10px 12px;
+    cursor:pointer;
+    user-select:none;
+    font-size:13px;
+    background:#fff;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    font-weight:700;
+    color:#374151;
+    transition:.18s ease;
+  }
+  .rs-choice:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0,0,0,.06);
+  }
+  .rs-choice.is-active{
+    background:rgba(207,32,48,.10);
+    border-color:rgba(207,32,48,.18);
+    color:#9a1027;
+    font-weight:600;
+  }
+
+  .rs-divider{
+    border:none;
+    height:1px;
+    background:rgba(17,24,39,.10);
+    margin:14px 0 16px;
+  }
+
+  .rs-actions{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    justify-content:flex-end;
+    margin-top:12px;
+  }
+
+  /* Upload row */
+  .rs-upload{
+    border:1px solid rgba(17,24,39,.12);
+    border-radius:16px;
+    padding:12px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    background: linear-gradient(180deg, #fff, #FBFBFD);
+  }
+  .rs-upload__left{
+    display:flex;
+    gap:12px;
+    align-items:center;
+    min-width: 220px;
+  }
+  .rs-upload__icon{
+    width:44px;height:44px;
+    border-radius:14px;
+    background: rgba(207,32,48,.10);
+    color: var(--rs-red);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:18px;
+  }
+  .rs-upload__title{ font-weight:700; font-size:13px; }
+  .rs-upload__sub{ font-size:12px; color: var(--rs-muted); margin-top:3px; font-weight:400; }
+  .rs-upload__right{ flex: 1; }
+  .rs-upload__right input{ padding:10px; }
+
+  /* Preview */
+  .rs-previewRow{ margin-top:12px; }
+  .rs-previewCard{
+    border:1px solid rgba(17,24,39,.12);
+    border-radius:18px;
+    overflow:hidden;
+    background:#fff;
+    box-shadow: 0 12px 26px rgba(0,0,0,.06);
+  }
+  .rs-previewCard img{
+    width:100%;
+    display:block;
+    max-height: 340px;
+    object-fit: cover;
+    border-bottom: 1px solid rgba(17,24,39,.10);
+  }
+  .rs-previewMeta{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    padding:12px;
+  }
+  .rs-previewLabel{
+    font-size:12px;
+    color:#374151;
+    font-weight:700;
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+  }
+
+  .rs-hidden{ display:none !important; }
+
+  /* Modal */
+  .rs-modal{
+    position:fixed;
+    inset:0;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    background:rgba(0,0,0,.45);
+    z-index:9998;
+    padding:20px;
+  }
+  .rs-modal.open{ display:flex; }
+
+  .rs-modalCard{
+    background:#fff;
+    border-radius:18px;
+    border:1px solid rgba(17,24,39,.10);
+    box-shadow: 0 18px 60px rgba(0,0,0,.18);
+    max-width:520px;
+    width:100%;
+    padding:18px;
+    text-align:center;
+  }
+
+  .rs-modalIcon{
+    width:58px;height:58px;
+    border-radius:18px;
+    background: rgba(207,32,48,.10);
+    color: var(--rs-red);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin:0 auto 10px;
+    font-size:20px;
+    font-weight:700;
+  }
+
+  .rs-modalCard h3{
+    margin:0 0 6px;
+    font-size:18px;
+    font-weight:700;
+    letter-spacing:-.02em;
+  }
+  .rs-modalCard p{
+    margin:0 0 14px;
+    color:#6B7280;
+    line-height:1.6;
+    font-size:14px;
+  }
+  .rs-modalActions{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+
+  /* Responsive */
+  @media (max-width: 980px){
+    .rs-submitHero__grid{ grid-template-columns:1fr; }
+  }
+  @media (max-width: 520px){
+    .rs-container{ padding:0 16px; }
+    .rs-submitHero{ padding:32px 0 20px; }
+    .rs-submitHero__title{ font-size:30px; }
+    .rs-imgPh--submitHero{ height:220px; }
+
+    .rs-row{ flex-direction:column; }
+    .rs-actions{ justify-content:stretch; }
+    .rs-actions .rs-btn{ width:100%; }
+
+    .rs-upload{ flex-direction:column; align-items:stretch; }
+  }
+</style>
+
+
+<script>
+  // =========================================================
+  // EVENT SUBMISSION LOGIC
+  // - Type switching (Virtual / In-person)
+  // - Featured image preview (optional)
+  // - localStorage persistence
+  // - success modal
+  // =========================================================
+
+  const STORAGE_KEY = "bni_events_submit_v1";
+
+  function saveEvent(data){
+    const list = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]");
+    list.unshift(data);
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+  }
+
+  const $ = (s, el=document) => el.querySelector(s);
+  const $$ = (s, el=document) => Array.from(el.querySelectorAll(s));
+  const uid = () => Math.random().toString(36).slice(2,9);
+
+  // Update these if you have an events listing page:
+  const eventsHref = "#";
+  $("#rsViewEventsTop").href = eventsHref;
+  $("#rsGoViewEvents").href = eventsHref;
+
+  const typeChoices = $("#rsEventTypeChoices");
+  const fields = {
+    virtual: $("#rsFieldsVirtual"),
+    inperson: $("#rsFieldsInperson")
+  };
+
+  let currentType = "virtual";
+
+  function switchType(type){
+    currentType = type;
+
+    $$(".rs-choice", typeChoices).forEach(btn => {
+      const active = btn.dataset.type === type;
+      btn.classList.toggle("is-active", active);
+      btn.setAttribute("aria-selected", active ? "true" : "false");
+    });
+
+    Object.keys(fields).forEach(k => {
+      fields[k].classList.toggle("rs-hidden", k !== type);
+    });
+  }
+
+  typeChoices.addEventListener("click", (e) => {
+    const btn = e.target.closest(".rs-choice");
+    if(!btn) return;
+    switchType(btn.dataset.type);
+  });
+
+  // Featured image preview
+  const imgInput = $("#rsEventFeaturedImg");
+  const previewRow = $("#rsImgPreviewRow");
+  const previewImg = $("#rsImgPreview");
+
+  if(imgInput){
+    imgInput.addEventListener("change", () => {
+      const f = imgInput.files && imgInput.files[0];
+      if(!f){
+        previewRow.classList.add("rs-hidden");
+        previewImg.src = "";
+        return;
+      }
+      const url = URL.createObjectURL(f);
+      previewImg.src = url;
+      previewRow.classList.remove("rs-hidden");
+    });
+  }
+
+  $("#rsRemoveImg").addEventListener("click", () => {
+    imgInput.value = "";
+    previewImg.src = "";
+    previewRow.classList.add("rs-hidden");
+  });
+
+  function resetForm(){
+    $$('input[type="text"], textarea').forEach(i => i.value = "");
+    $$('select').forEach(s => s.value = "");
+    imgInput.value = "";
+    previewImg.src = "";
+    previewRow.classList.add("rs-hidden");
+    switchType("virtual");
+  }
+
+  $("#rsResetEvent").addEventListener("click", resetForm);
+
+  function requireVal(id, msg){
+    const el = $(id);
+    if(!el) return true;
+    const v = (el.value || "").trim();
+    if(!v){
+      alert(msg);
+      el.focus();
+      return false;
+    }
+    return true;
+  }
+
+  $("#rsSubmitEvent").addEventListener("click", () => {
+
+    // Basic validation
+    if(!requireVal("#rsEventTitle", "Please enter an event title.")) return;
+    if(!requireVal("#rsEventHost", "Please enter who is hosting the event.")) return;
+    if(!requireVal("#rsEventDate", "Please enter the event date.")) return;
+    if(!requireVal("#rsEventTime", "Please enter the start time.")) return;
+    if(!requireVal("#rsEventTz", "Please select a timezone.")) return;
+    if(!requireVal("#rsEventDescription", "Please enter a short description.")) return;
+
+    if(currentType === "virtual"){
+      if(!requireVal("#rsEventLink", "Please provide the meeting link for a virtual event.")) return;
+    }else{
+      if(!requireVal("#rsEventVenue", "Please provide the venue/location name.")) return;
+      if(!requireVal("#rsEventAddress", "Please provide the address.")) return;
+    }
+
+    const payload = {
+      id: uid(),
+      type: currentType,
+      createdAt: Date.now(),
+      title: $("#rsEventTitle").value.trim(),
+      host: $("#rsEventHost").value.trim(),
+      category: $("#rsEventCategory").value,
+      date: $("#rsEventDate").value.trim(),
+      time: $("#rsEventTime").value.trim(),
+      endTime: $("#rsEventEndTime").value.trim(),
+      tz: $("#rsEventTz").value,
+      link: $("#rsEventLink").value.trim(),
+      instructions: $("#rsEventInstructions").value.trim(),
+      venue: $("#rsEventVenue").value.trim(),
+      address: $("#rsEventAddress").value.trim(),
+      parking: $("#rsEventParking").value.trim(),
+      regLink: $("#rsRegLink").value.trim(),
+      capacity: $("#rsCapacity").value.trim(),
+      price: $("#rsPrice").value.trim(),
+      contactEmail: $("#rsContactEmail").value.trim(),
+      description: $("#rsEventDescription").value.trim(),
+      hasFeaturedImage: !!(imgInput.files && imgInput.files[0])
+    };
+
+    saveEvent(payload);
+    $("#rsSuccessModal").classList.add("open");
+  });
+
+  // modal close behaviors
+  $("#rsCloseModal").addEventListener("click", () => {
+    $("#rsSuccessModal").classList.remove("open");
+    resetForm();
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if(e.key === "Escape" && $("#rsSuccessModal").classList.contains("open")){
+      $("#rsSuccessModal").classList.remove("open");
+      resetForm();
+    }
+  });
+
+  $("#rsSuccessModal").addEventListener("click", (e) => {
+    if(e.target.id === "rsSuccessModal"){
+      $("#rsSuccessModal").classList.remove("open");
+      resetForm();
+    }
+  });
+
+  // init
+  switchType("virtual");
+</script>
+
+
+<!--end-->
+
+
+
+<footer class="rs-footer" role="contentinfo">
+  <div class="rs-footer__inner">
+
+    <div class="rs-footer__grid">
+
+      <!-- Brand -->
+      <div class="rs-footer__brand">
+        <img
+          class="rs-footer__logo"
+          src="https://d34hmiuaex7c0.cloudfront.net/6568/uploads/cmaspages/gallery/galleryitem_1768573585550.515"
+          alt="BNI Rock Solid Referrals"
+        />
+        <p class="rs-footer__desc">
+          BNI Rock Solid Referrals is a structured network of trusted local professionals —
+          built on consistency, credibility, and referrals that convert.
+        </p>
+      </div>
+
+      <!-- Explore -->
+      <div class="rs-footer__col">
+        <h4>Explore</h4>
+        <a href="https://kakatbarilea-prog.github.io/bni-homepage/">Home</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-chapter-leadership/">Chapter Leadership</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-weekly-meetings">Weekly Meetings</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-upcoming-events">Upcoming Events</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-gallery">Gallery</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-news">News</a>
+      </div>
+
+      <!-- Members -->
+      <div class="rs-footer__col">
+        <h4>Members</h4>
+        <a href="https://kakatbarilea-prog.github.io/bni-member-login">Member Log-in</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-chamber-members-directory/">Member Directory</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-chamber-members-directory" class="rs-membersOnlyLink">Request a 1-to-1</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-chamber-members-directory" class="rs-membersOnlyLink">Share a Referral</a>
+
+        <!-- ✅ ADDED HERE per your request -->
+        <a href="https://kakatbarilea-prog.github.io/bni-member-events" class="rs-membersOnlyLink">Member Promotions &amp; Events</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-post-an-event" class="rs-membersOnlyLink">Post an Event</a>
+
+        <a href="https://kakatbarilea-prog.github.io/bni-seek-of-the-week-page/" class="rs-membersOnlyLink">Submit Seek of the Week</a>
+        <a href="https://kakatbarilea-prog.github.io/bni-seek-of-the-week-submissions/" class="rs-membersOnlyLink">View Seeks of the Week</a>
+      </div>
+
+    </div>
+
+    <div class="rs-footer__bottom">
+      <div class="rs-footer__bottomLeft">
+        © <span id="rsFooterYear"></span> BNI Rock Solid Referrals&nbsp;&nbsp;•&nbsp;&nbsp;Powered by Segwik
+      </div>
+
+      <div class="rs-footer__bottomRight">
+        <a href="#">Privacy Policy</a>
+        <span class="rs-footer__sep">|</span>
+        <a href="#">Terms &amp; Conditions</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- MEMBERS ONLY POPUP (FOOTER VERSION) -->
+<div class="rsF-membersModal" id="rsFMembersModal" hidden aria-hidden="true">
+  <div class="rsF-membersModal__backdrop" data-close="1"></div>
+
+  <div class="rsF-membersModal__card" role="dialog" aria-modal="true" aria-label="Members only">
+    <div class="rsF-membersModal__badge">Members Only</div>
+    <div class="rsF-membersModal__title">This page is available to chapter members.</div>
+    <div class="rsF-membersModal__text">
+      Please log in to access member pages such as Seeks, Member Events, and Event Submissions.
+    </div>
+
+    <div class="rsF-membersModal__actions">
+      <button class="rsF-membersModal__btn rsF-membersModal__btn--secondary" type="button" data-close="1">
+        Close &amp; Continue
+      </button>
+      <a class="rsF-membersModal__btn rsF-membersModal__btn--primary" href="https://kakatbarilea-prog.github.io/bni-member-login" id="rsFModalLoginBtn">
+        Member Log-in
+      </a>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* -------- FOOTER ONLY VARIABLES (scoped) -------- */
+  .rs-footer{
+    --rs-red:#CF2030;
+    --rs-bg:#333333;
+    --rs-text:#ffffff;
+    --rs-muted: rgba(255,255,255,.82);
+    --rs-line: rgba(255,255,255,.14);
+  }
+
+  /* Scope all typography + box sizing to footer only */
+  .rs-footer, .rs-footer *{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box;
+  }
+
+  .rs-footer{
+    width:100%;
+    background: var(--rs-bg);
+    color: var(--rs-text);
+    border-top: 4px solid var(--rs-red);
+  }
+
+  .rs-footer__inner{
+    width:100%;
+    max-width:1200px;
+    margin:0 auto;
+    padding:42px 22px 18px;
+  }
+
+  .rs-footer__grid{
+    display:grid;
+    grid-template-columns: 2.2fr 1fr 1fr;
+    gap:28px;
+    align-items:start;
+  }
+
+  .rs-footer__logo{
+    height:34px;
+    width:auto;
+    max-width:220px;
+    object-fit:contain;
+    display:block;
+  }
+
+  .rs-footer__desc{
+    margin:12px 0 0;
+    font-weight:400;
+    font-size:14px;
+    line-height:1.6;
+    max-width:560px;
+    color: var(--rs-muted);
+  }
+
+  .rs-footer__col h4{
+    margin:0 0 12px;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.06em;
+    text-transform:uppercase;
+    color:#fff;
+    position:relative;
+  }
+  .rs-footer__col h4::after{
+    content:"";
+    display:block;
+    width:42px;
+    height:2px;
+    border-radius:999px;
+    background: var(--rs-red);
+    margin-top:10px;
+    opacity:.95;
+  }
+
+  .rs-footer__col a{
+    display:block;
+    width:max-content;
+    margin:10px 0;
+    font-weight:400;
+    font-size:14px;
+    color: var(--rs-muted);
+    text-decoration:none;
+    transition:.15s ease;
+  }
+  .rs-footer__col a:hover{
+    color:#fff;
+    text-decoration:underline;
+    text-underline-offset:3px;
+  }
+
+  .rs-footer__bottom{
+    margin-top:22px;
+    padding-top:14px;
+    border-top:1px solid var(--rs-line);
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    flex-wrap:wrap;
+    font-size:13px;
+    color: var(--rs-muted);
+  }
+
+  .rs-footer__bottomLeft{font-weight:400}
+
+  .rs-footer__bottomRight{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    font-weight:400;
+  }
+  .rs-footer__bottomRight a{
+    color: var(--rs-muted);
+    text-decoration:none;
+    transition:.15s ease;
+  }
+  .rs-footer__bottomRight a:hover{
+    color:#fff;
+    text-decoration:underline;
+    text-underline-offset:3px;
+  }
+  .rs-footer__sep{opacity:.5}
+
+  @media (max-width: 860px){
+    .rs-footer__grid{
+      grid-template-columns: 1fr 1fr;
+    }
+    .rs-footer__brand{
+      grid-column: 1 / -1;
+    }
+  }
+
+  @media (max-width: 520px){
+    .rs-footer__inner{
+      padding:34px 16px 14px;
+    }
+
+    .rs-footer__grid{
+      grid-template-columns: 1fr;
+      gap:18px;
+    }
+
+    .rs-footer__col{
+      padding-top:10px;
+      border-top:1px solid rgba(255,255,255,.10);
+    }
+
+    .rs-footer__col a{
+      width:100%;
+      padding:10px 0;
+      margin:0;
+    }
+
+    .rs-footer__bottom{
+      flex-direction:column;
+      align-items:flex-start;
+      gap:8px;
+    }
+  }
+
+  /* =========================
+     FOOTER MODAL (unique classes)
+  ========================= */
+  .rsF-membersModal{
+    position:fixed;
+    inset:0;
+    z-index:5000;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:18px;
+  }
+  .rsF-membersModal[hidden]{display:none !important;}
+
+  .rsF-membersModal__backdrop{
+    position:absolute;
+    inset:0;
+    background: rgba(17,24,39,.62);
+    backdrop-filter: blur(4px);
+  }
+
+  .rsF-membersModal__card{
+    position:relative;
+    width:100%;
+    max-width:420px;
+    border-radius:20px;
+    border:1px solid rgba(229,231,235,.55);
+    background:#fff;
+    box-shadow: 0 22px 56px rgba(0,0,0,.22);
+    padding:18px 18px 16px;
+    text-align:left;
+  }
+
+  .rsF-membersModal__badge{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    padding:8px 12px;
+    border-radius:999px;
+    font-weight:900;
+    font-size:12px;
+    letter-spacing:.02em;
+    color:#CF2030;
+    background: rgba(207,32,48,.10);
+    border: 1px solid rgba(207,32,48,.18);
+    margin-bottom:12px;
+  }
+
+  .rsF-membersModal__title{
+    font-size:16px;
+    font-weight:900;
+    color:#111827;
+    margin-bottom:8px;
+  }
+
+  .rsF-membersModal__text{
+    font-size:14px;
+    line-height:1.6;
+    color:#4B5563;
+    margin-bottom:14px;
+  }
+
+  .rsF-membersModal__actions{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    margin-top:8px;
+  }
+
+  .rsF-membersModal__btn{
+    display:inline-flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+    gap:8px !important;
+    padding:11px 14px !important;
+    border-radius:14px !important;
+    font-weight:900 !important;
+    font-size:13px !important;
+    text-decoration:none !important;
+    cursor:pointer !important;
+    border:1px solid #E5E7EB !important;
+    transition:.18s ease !important;
+    flex:1 !important;
+    min-width:160px !important;
+    line-height:1 !important;
+  }
+
+  .rsF-membersModal__btn--secondary{
+    background:#F3F4F6 !important;
+    color:#111827 !important;
+    border-color:#E5E7EB !important;
+  }
+
+  /* ✅ HARD FIX: anchor login button forced red + white */
+  .rsF-membersModal__btn--primary,
+  a.rsF-membersModal__btn--primary,
+  a#rsFModalLoginBtn{
+    background:#CF2030 !important;
+    color:#ffffff !important;
+    border-color:transparent !important;
+  }
+  .rsF-membersModal__btn--primary:hover,
+  a.rsF-membersModal__btn--primary:hover,
+  a#rsFModalLoginBtn:hover{
+    background:#b61b29 !important;
+    color:#ffffff !important;
+  }
+</style>
+
+<script>
+  document.getElementById("rsFooterYear").textContent = new Date().getFullYear();
+
+  // FOOTER MODAL GATING (self-contained)
+  (function(){
+    const modal = document.getElementById('rsFMembersModal');
+    if(!modal) return;
+
+    const modalLoginBtn = document.getElementById('rsFModalLoginBtn');
+    if(modalLoginBtn) modalLoginBtn.setAttribute('href', '#');
+
+    modal.setAttribute('hidden','');
+    modal.setAttribute('aria-hidden','true');
+
+    function openModal(){
+      modal.removeAttribute('hidden');
+      modal.setAttribute('aria-hidden','false');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(){
+      modal.setAttribute('hidden','');
+      modal.setAttribute('aria-hidden','true');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('click', function(e){
+      const gated = e.target.closest('.rs-membersOnlyLink');
+      if(!gated) return;
+      e.preventDefault();
+      openModal();
+    });
+
+    modal.addEventListener('click', function(e){
+      if(e.target && e.target.getAttribute('data-close') === '1') closeModal();
+    });
+
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape' && !modal.hasAttribute('hidden')) closeModal();
+    });
+  })();
+</script>
